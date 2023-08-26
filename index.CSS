@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.game {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.rod {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background-color: #000;
+}
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  border-radius: 50%;
+}
